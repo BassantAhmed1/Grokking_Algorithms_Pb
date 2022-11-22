@@ -30,7 +30,7 @@ void QuickSort_rec(int* arr, int start , int end)
     }    
 }
 
-void QuickSort (int *arr , int len)			//O(log n)	complixity 
+void QuickSort (int *arr , int len)			//O(n log n)	complixity 
 {
     QuickSort_rec (arr , 0 , len-1);			//1- giving the start and end positions to the quick sort recursion func.
 }
